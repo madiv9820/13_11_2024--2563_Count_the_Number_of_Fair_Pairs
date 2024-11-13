@@ -92,7 +92,7 @@
 
         - **Time Complexity Breakdown:**
             - Outer loop: Iterates `n` times.
-            - Inner loop: For each iteration of the outer loop, the inner loop iterates `n-1`, `n-2`, ... times, resulting in a total of $$\left( \frac{n\times(n-1)}{2}\right)$$ iterations.
+            - Inner loop: For each iteration of the outer loop, the inner loop iterates `n-1`, `n-2`, ... times, resulting in a total of $$\left(\frac{n\times(n-1)}{2}\right)$$ iterations.
             - The time complexity is therefore **O(n<sup>2</sup>)**.
 
     - ### Space Complexity
