@@ -9,14 +9,14 @@ class UnitTest(unittest.TestCase):
         return super().setUp()
     
     @timeout(0.5)
-    def __test_Case1(self):
+    def test_Case1(self):
         nums, lower, upper, output = self.__testCases[1]
         result = self.__obj.countFairPairs(nums = nums, lower = lower, upper = upper)
         self.assertIsInstance(result, int)
         self.assertEqual(result, output)
     
     @timeout(0.5)
-    def __test_Case2(self):
+    def test_Case2(self):
         nums, lower, upper, output = self.__testCases[2]
         result = self.__obj.countFairPairs(nums = nums, lower = lower, upper = upper)
         self.assertIsInstance(result, int)
